@@ -20,8 +20,8 @@ ul {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: aquamarine;
+  border: 1px solid blueviolet;
   float: left;
   font-size: 45px;
   font-weight: bold;
@@ -36,10 +36,11 @@ ul {
 
 .square:focus {
   outline: none;
+  color: blueviolet;
 }
 
 .kbd-navigation .square:focus {
-  background: #ddd;
+  background: blueviolet;
 }
 
 .game {
@@ -53,4 +54,30 @@ ul {
 
 .game-info {
   margin-left: 20px;
+  color: blueviolet;
+  font-size: 18px;
+  font-weight: 700;
+  max-height: 210px;
+  overflow-y: auto;
+}
+
+.game-info ol li {
+  color: blueviolet;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.game-info ol li button {
+  padding: 10px 15px;
+  border: 2px solid blueviolet;
+  background: aquamarine;
+  color: blueviolet;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.game-info ol li button:hover {
+  background: blueviolet;
+  color: aquamarine;
 }
